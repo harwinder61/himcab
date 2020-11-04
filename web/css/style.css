@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i');
+ body{
+     font-family:Montserrat;
+	 margin:0;
+	 padding:0;
+}
+ h2 span{
+border-bottom:4px solid #063a80;
+}
+ a:hover{
+     text-decoration: none!important;
+}
+h2{padding-bottom: 3%;
+}
+a.active{
+color:#063a80;}
+a.fa {
+    color:#000;
+	}
+ a{
+     font-family:Montserrat;
+	 font-weight:500;
+}
+ ul, h1, h2, h3, h4, h5, h6, p{
+     
+     font-family:Montserrat;
+}
+ li{
+     list-style:none;
+     font-family:Montserrat;
+}
+p{
+     font-family:Montserrat;
+}
+
+/* menu*/
+
+#book a {
+    background-color: #063a80;
+    border-radius: 8px;
+    padding: 5px 13px 5px 13px;
+	color: #fff;
+	}
+#book a.active {
+    color: #fff !important;
+}
+.menu a {
+    font-size: 17px;
+    margin: 0 7px;
+	}
+#mobile {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 20px;
+	}
+.header {
+    background-color: #fff;
+    z-index: 100;
+    padding: 10px 0;
+    box-shadow: 1px 1px 9px #eae4e4;
+}
+.menu{
+    display: flow-root;
+}
+	
+	/* slider */
+.banner
+	{
+	background-image:url("../images/slider.jpg");
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:10% 0;
+	background-attachment: fixed;
+
+	}
+.text
+	{margin-top:7%;
+	}
+.text h1
+	{
+	color:#fff;
+	font-weight:700;
+	text-shadow: 2px 2px #343232;
+	}
+.text p
+ {
+	 color:#fff;
+	 padding:10px 0;
+	 font-size:20px;
+	 text-shadow: 2px 1px #343232;}
+ .text a
+	 {background-color:#063a80;
+	 border-radius:5px;
+	 color:#fff;
+ 	padding: 11px 43px 11px 43px;
+ }
+.city_form {
+    background-color: #fff;
+    padding: 2% 3%;
+}
+.city_form .active{
+     color:#fff !important;
+	 background-color:#063a80 !important;
+	 }
+.city_form p {
+    border-radius: 50%;
+    background-color: #ffffff !important;
+    width: 10px;
+    height: 10px;
+    margin: 0 auto;
+	margin-bottom: 10px;
+}
+.city_form a {
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px 10px 10px 10px;
+}
+
+.city_form form{
+    margin-top:30px;
+	background-color:#fff !important;
+}
+	
+button.btn.btn-primary {
+    background: #063a80;
+    width: 100%;
+    border: none;
+}
+.car h2 {
+	color:#000;
+}
+h2 {
+	font-size:22px;
+	font-weight:600;
+}
+
+ 
+ /*your car */
+ 
+ .car
+	{
+	background-image:url("../images/your_car.jpg");
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	margin: 80px 0;
+	}
+
+	.mySlides {display:none;}
+	.your_car 
+	{margin-top:10%;}
+	
+
+.town
+{margin-top:20px;}
+	
+.w3-button 
+{color:#000;
+border:2px solid #063a80;
+margin: 2px 10px 2px 10px;}
+button.w3-button.demo.w3-red {
+    color: white;
+    background-color:#063a80;
+    border:none !important;
+    font-size: 18px;
+    font-weight: 600;
+}
+	 /*about us */
+.about
+{
+	background-image:url("../images/about.png");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+    padding:7% 0;
+    background-attachment: fixed;
+}
+
+.ab_us a
+{
+color:#fff;
+background-color:#063a80;
+   padding: 6px 6px 6px 6px;
+    border-radius: 3px;
+    }
+.blog
+	{
+	padding:3% 0;}
+.blog span
+	{border-bottom:3px solid #063a80; }
+.blog img
+	{
+	width:100%;}
+	.blog h2{
+		padding-bottom: 20px;
+	}
+
+	.contact {
+    padding-bottom: 50px;
+}
+.entry .more-link {
+    background-color: #063a80 !important;
+    color: #fff !important;
+}
+
+/*contact us */	
+.con_form .name {
+    margin-top: 20px !important;
+}
+input#message {
+    padding-bottom: 10%;
+}
+.con_form button.btn.btn-primary.mt-3 {
+    width: 100%;
+    background-color: #063a80;
+	border: none;
+	}
+	
+	/* footer */
+.footer{
+	background-color:#f5f5f5;
+	padding-top:50px;
+	}
+li.fa.fa
+	{color:#063a80;
+	}
+
+.footer h5{
+	font-size:18px;
+	font-weight:700;
+	color:#063a80;
+}
+
+.him img {
+    padding: 3px;
+    border-radius: 10px;
+}
+.him p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    text-align: justify;
+}
+.links a{
+	color:#000;
+}
+.info span {
+    color: #000;
+    padding-left: 6px;
+    font-weight: 500;	
+	font-family:montserrat;
+	line-height: normal
+}
+.info li {
+    padding-top: 12px;
+}
+
+.copy{
+	margin-top: 22px;
+	color: #fff3;
+	padding-bottom:1px;
+}
+.copy p {
+    color: #000;
+    font-size: 14px;
+}
+.footer .row{
+    border-bottom: 1px solid #252323;
+}
+/*about us page */
+.about_banner {
+    background-image: url(../images/about.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10% 0;
+}
+.about_banner h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #063a80;
+    padding: 0;
+}
+.about_banner p {
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+}
+.content h3 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.content p {
+	font-size: 16px;
+    font-weight: 500;
+	text-align:center;
+}
+
+.content p {
+    text-align: justify;
+}
+/*blog page*/
+.blog_banner{  
+	background-image:url("../images/blog.jpg");
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:10% 0;
+}
+.blog_banner h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #063a80;
+	padding:0;
+}
+.blog_banner p {
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+}
+.blogpage_text p {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: justify;
+    margin:0;
+
+}	
+.blogpage_text h6 {
+    color: #9e9c9a;}
+.blogs
+{
+margin-top:50px;}
+.blogs a{
+	width: 100%;
+}
+
+
+/*contact */
+.contact_banner
+{   background-image:url("../images/contact.jpg");
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:10% 0;}
+.contact_banner h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #063a80;
+	padding:0;
+}
+.contact_banner p {
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+	}
+.contact_page
+{
+margin-top:50px;}
+
+button.btn.btn-primary.mt-3.send {
+    width: 50%;
+}
+/*book page*/
+.book_text
+{
+background-image:url("../images/book.jpg");
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:20% 0;}
+.book_text h2 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #fff;
+    padding-left: 28px;} 
+.book_text p 
+	   { color: #fff;
+    font-size: 20px;
+	padding-left: 28px;}
+.book_banner .row{margin:0;}
+
+/* New edition 14-Oct-2020*/
+.ab_us p {
+    text-align: justify;
+    font-size: 16px;
+}
+.blog p {
+    font-size: 16px;
+    margin: 8px 0 15px;
+    text-align: justify;
+}
+.pagination{
+	padding-top: 14px;
+	display: inline-flex;
+}
+
+.blogs_new_single_page {
+    margin-top: 3%;
+}
+.blogpage_1.text-center img {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 650px;
+    height: 650px;
+    margin: 0 auto;
+}	
+	
+	
+	
+	
+	
+	
+/* New edition 14-Oct-2020*/	
+@media (max-width:991px){
+.menu {
+		padding: 0;
+	}
+.menu button {
+		position: absolute;
+		right: 10px;
+	}
+.city_form a{
+    font-size: 14px;
+    padding: 4px 3px 4px 3px;
+}
+}
+/*media query*/
+@media only screen and (max-width: 767px) 
+{
+    .menu a {
+    margin-left:14px;
+    }
+#book a {
+ 
+    display: inline;
+}  
+.menu button {
+bottom:100%;
+margin-bottom:5px;}
+#mobile{margin:10px 0;}
+  
+.text h1	
+{font-size:28px;
+display:center;}
+.text p
+{
+font-size:14px;}
+.text a{
+padding: 8px 20px 8px 20px;
+}
+.city {
+    margin-top: 30px;
+	}
+.city_form a{font-size: 13px;
+    padding: 4px 8px 4px 8px;
+	}
+	.google
+{padding-bottom:20px;}
+.links ul{padding-left:0;}
+.info  ul{padding-left:0;}
+/*book*/
+.book_text h2 {
+    font-size: 28px;}
+.book_text p 
+	   {
+    font-size: 14px;
+	}
+	/*contact page*/
+.contact_banner h2
+	{font-size: 28px;}
+.contact_banner p 
+	   {
+    font-size: 14px;
+	}
+	/*blog*/
+.blog_banner h2 {
+    font-size: 28px;
+}
+.blog_banner p {
+    font-size: 14px;
+}
+.about_banner h2 {
+    font-size:28px;
+	}
+.about_banner p {
+    font-size:14px;
+	}
+.ab_us
+	{margin-top:30px;
+	}
+.blog_1 p
+	{
+	margin-top:10px;}
+.blog img {
+    margin-top: 30px;
+}
+.blog_1 h6
+{margin-bottom:15px;}
+
+.blogpage_1.text-center img {
+
+    width: 460px;
+    height: 460px;
+}
+
+ .blogpage_text p{
+    padding-top: 7px;}
+	
+	}
+@media only screen and (max-width: 480px)	
+	{
+	
+.w3-button 	
+{margin: 2px 2px 2px 2px;}
+button.w3-button {
+    font-size: 12px;
+}
+/*about page */
+.content p
+{
+font-size:14px;}
+.entry img{
+    margin:0 auto;
+}
+.blogpage_1.text-center img {
+
+    width: 310px;
+    height: 310px;
+}
+
+}
+
+	
